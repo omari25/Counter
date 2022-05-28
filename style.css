@@ -6,9 +6,9 @@
 }
 
 .container {
-    background-color: rgb(125, 234, 234);
+    background-color: #7deaea;
     margin: 15vh 25vw;
-    height: 70vh;
+    height: 500px;
     width: 50%;
     padding: 5vw;
     border-radius: 10px;
@@ -20,13 +20,13 @@
 .count p{
     text-align: center;
     color: white;
-    font-size: 4vw;
+    font-size: 40px;
 }
 
 .numb p{
     text-align: center;
     color: white;
-    font-size: 12vw;
+    font-size: 120px;
 }
 
 .btns {
@@ -36,7 +36,8 @@
 }
 
 .btns button {
-    padding: 1vw;
+    padding: 15px;
+    font-size: 15px;
     border: none;
     background-color: #0404ea;
     color: white;
@@ -48,3 +49,10 @@
     box-shadow: 5px 5px 10px #ffffff;
 }
 
+@media (max-width: 700px) {
+    .container {
+        margin: 0;
+        width: 100%;
+    }
+
+  }
